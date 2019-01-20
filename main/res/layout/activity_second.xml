@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:id="@+id/layy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+        android:id="@+id/layyLOGO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:background="@color/colorW"
+        android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="200px"
+                android:layout_marginTop="0px"
+                android:src="@drawable/yayalogo"
+                android:textAlignment="center" />
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layy2"
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:background="@color/colorGreen"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/layy22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorW"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textViewSaat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="64px"
+                android:textAlignment="center"
+                android:text="00" />
+
+
+            <TextView
+                android:id="@+id/textViewAyrac1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="64px"
+                android:textAlignment="center"
+                android:text=":" />
+
+            <TextView
+                android:id="@+id/textViewDakika"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="64px"
+                android:textAlignment="center"
+                android:text="00" />
+
+
+
+            <TextView
+                android:id="@+id/textViewAyrac2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="64px"
+                android:textAlignment="center"
+                android:text=":" />
+
+            <TextView
+                android:id="@+id/textViewSaniye"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="64px"
+                android:textAlignment="center"
+                android:text="00" />
+
+
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/buttonBaslat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGreen"
+            android:textSize="48px"
+            android:layout_marginTop="25px"
+            android:textColor="@color/colorW"
+            android:text="SAYAÇ BAŞLAT" />
+
+
+        <LinearLayout
+            android:id="@+id/layyButton"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/colorW"
+            android:orientation="horizontal">
+
+
+
+
+            <Button
+                android:id="@+id/buttonDurdur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGreen"
+                android:textSize="48px"
+                android:layout_marginTop="25px"
+                android:textColor="@color/colorW"
+                android:text=" SAYAÇ DURDUR " />
+
+
+
+            <Button
+                android:id="@+id/buttonSifirla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGreen"
+                android:textSize="48px"
+                android:layout_marginTop="25px"
+                android:textColor="@color/colorW"
+                android:text=" SAYAÇ SIFIRLA " />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layyX"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/colorW"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="64px"
+                android:textAlignment="center"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textViewXX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  metre"
+                android:textAlignment="center"
+                android:textColor="@color/colorGreen"
+                android:textSize="64px" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/layyC"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/colorW"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="64px" />
+
+            <TextView
+                android:id="@+id/textViewCC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGreen"
+                android:textSize="64px"
+                android:textAlignment="center"
+                android:text="  harcanan kalori" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/buttonNextt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGreen"
+            android:textSize="48px"
+            android:layout_marginTop="25px"
+            android:textColor="@color/colorW"
+            android:text="İLERİ" />
+
+
+
+        <TextView
+            android:id="@+id/textXXXView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorW"
+            android:textSize="8px"
+            android:textAlignment="center"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textViewSON"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:text="Mesafe Koordinat bilgilerinden hesaplanmaktadır ve küçük sapmalar oluşabilmektedir."
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="450dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
